@@ -1,0 +1,15 @@
+[
+  {
+    "id": "u-demo",
+    "login": "demo",
+    "name": "Demo manager",
+    "title": "Manager",
+    "hash": "",
+    "admin": true,
+    "active": true,
+    "mustChange": false,
+    "stylistId": "",
+    "own": false,
+    "perms": {}
+  }
+]

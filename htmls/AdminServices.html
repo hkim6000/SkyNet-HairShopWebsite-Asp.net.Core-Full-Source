@@ -1,0 +1,24 @@
+<div class="sc-site" data-page="AdminServices" id="sc-site-root">
+<header class="sc-top">
+    <button type="button" class="sc-burger" aria-label="Menu" onclick="AdminServicesJs.openMenu()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="sc-logo" href="Admin"><svg viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><rect width="40" height="40" rx="11" fill="#231A17"/><path d="M14 31c-1-7 13-7 13-14 0-4-3-7-7.5-7" fill="none" stroke="#E8C9A9" stroke-width="3.2" stroke-linecap="round"/><path d="M20 32c0-5 9-5.5 9.5-11" fill="none" stroke="#C2553A" stroke-width="2.6" stroke-linecap="round"/></svg><span id="sc-brand">Staff</span><small>Staff</small></a>
+    <div class="sc-who" id="sc-who"></div>
+    <a class="sc-tl sc-tlv" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="sc-tl" onclick="AdminServicesJs.signout()">Sign out</button>
+</header>
+<div class="sc-body">
+    <nav class="sc-rail" id="sc-rail" aria-label="Staff menu">
+        <div class="sc-rail-top"><b>Menu</b><button type="button" class="sc-ibtn" aria-label="Close menu" onclick="AdminServicesJs.closeMenu()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="sc-menu" id="sc-menu"></div>
+    </nav>
+    <div class="sc-scrim" id="sc-scrim" onclick="AdminServicesJs.closeMenu()"></div>
+    <main class="sc-main" id="sc-main"><div class="sc-loading">Loading</div></main>
+</div>
+<div class="sc-modal" id="sc-modal" aria-hidden="true">
+    <div class="sc-mbox" role="dialog" aria-modal="true" aria-labelledby="sc-mtitle">
+        <div class="sc-mhead"><h2 id="sc-mtitle"></h2><button type="button" class="sc-ibtn" aria-label="Close" onclick="AdminServicesJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="sc-mbody" id="sc-mbody"></div>
+    </div>
+</div>
+<div class="sc-toast" id="sc-toast" role="status" aria-live="polite"></div>
+</div>

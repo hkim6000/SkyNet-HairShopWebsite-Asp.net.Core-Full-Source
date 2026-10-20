@@ -1,0 +1,1123 @@
+{
+  "brand": "HairShop",
+  "tagline": "A neighborhood salon for cuts, color and care.",
+  "phone": "(555) 014-2290",
+  "email": "hello@hairshop.example",
+  "street": "41 Linden Row",
+  "city": "Eastport, ST 01234",
+  "mapNote": "Two minutes from the Linden Row tram stop. Street parking on Alder Lane.",
+  "hours": [
+    {
+      "open": true,
+      "from": "10:00",
+      "to": "18:00"
+    },
+    {
+      "open": true,
+      "from": "09:00",
+      "to": "19:00"
+    },
+    {
+      "open": true,
+      "from": "09:00",
+      "to": "19:00"
+    },
+    {
+      "open": true,
+      "from": "09:00",
+      "to": "20:00"
+    },
+    {
+      "open": true,
+      "from": "09:00",
+      "to": "19:00"
+    },
+    {
+      "open": true,
+      "from": "09:00",
+      "to": "17:00"
+    },
+    {
+      "open": false,
+      "from": "10:00",
+      "to": "16:00"
+    }
+  ],
+  "slotStep": 15,
+  "buffer": 10,
+  "horizonDays": 60,
+  "leadMinutes": 60,
+  "tipPresets": [
+    15,
+    18,
+    20
+  ],
+  "maxVideoMb": 30,
+  "categories": [
+    {
+      "key": "cuts",
+      "label": "Cuts"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "styling",
+      "label": "Styling \u0026 events"
+    },
+    {
+      "key": "care",
+      "label": "Care \u0026 consultations"
+    },
+    {
+      "key": "barber",
+      "label": "Barbering"
+    }
+  ],
+  "services": [
+    {
+      "id": "consult",
+      "name": "Free consultation",
+      "category": "care",
+      "minutes": 15,
+      "price": 0,
+      "from": false,
+      "text": "Talk through what you want with your stylist. You leave with a plan and an exact price.",
+      "active": true,
+      "featured": false,
+      "order": 10
+    },
+    {
+      "id": "patch",
+      "name": "Patch test",
+      "category": "care",
+      "minutes": 10,
+      "price": 0,
+      "from": false,
+      "text": "Needed 48 hours before color if you are new to us or it has been six months.",
+      "active": true,
+      "featured": false,
+      "order": 20
+    },
+    {
+      "id": "cut-long",
+      "name": "Cut \u0026 finish, long hair",
+      "category": "cuts",
+      "minutes": 60,
+      "price": 78,
+      "from": true,
+      "text": "Wash, cut and blow-dry for hair below the shoulders.",
+      "active": true,
+      "featured": true,
+      "order": 30
+    },
+    {
+      "id": "cut-short",
+      "name": "Cut \u0026 finish, short hair",
+      "category": "cuts",
+      "minutes": 45,
+      "price": 62,
+      "from": false,
+      "text": "Wash, cut and finish for hair above the shoulders.",
+      "active": true,
+      "featured": false,
+      "order": 40
+    },
+    {
+      "id": "curl-cut",
+      "name": "Curly cut",
+      "category": "cuts",
+      "minutes": 75,
+      "price": 85,
+      "from": true,
+      "text": "A dry cut, curl by curl, with a diffused finish and styling tips.",
+      "active": true,
+      "featured": false,
+      "order": 50
+    },
+    {
+      "id": "fringe",
+      "name": "Bang trim",
+      "category": "cuts",
+      "minutes": 15,
+      "price": 15,
+      "from": false,
+      "text": "A quick tidy between cuts. No wash.",
+      "active": true,
+      "featured": false,
+      "order": 60
+    },
+    {
+      "id": "kids",
+      "name": "Kids cut (under 12)",
+      "category": "cuts",
+      "minutes": 30,
+      "price": 32,
+      "from": false,
+      "text": "A relaxed cut with a little style at the end.",
+      "active": true,
+      "featured": false,
+      "order": 70
+    },
+    {
+      "id": "roots",
+      "name": "Root color",
+      "category": "color",
+      "minutes": 90,
+      "price": 95,
+      "from": false,
+      "text": "Permanent color on regrowth up to 1 inch, with a gloss on the lengths.",
+      "active": true,
+      "featured": false,
+      "order": 80
+    },
+    {
+      "id": "full-color",
+      "name": "All-over color",
+      "category": "color",
+      "minutes": 120,
+      "price": 130,
+      "from": true,
+      "text": "One shade from roots to ends, for coverage or a full change.",
+      "active": true,
+      "featured": false,
+      "order": 90
+    },
+    {
+      "id": "balayage",
+      "name": "Balayage or highlights",
+      "category": "color",
+      "minutes": 180,
+      "price": 210,
+      "from": true,
+      "text": "Hand-painted or foiled lightness, toned to suit you. Includes a cut and finish.",
+      "active": true,
+      "featured": true,
+      "order": 100
+    },
+    {
+      "id": "gloss",
+      "name": "Gloss \u0026 toner",
+      "category": "color",
+      "minutes": 45,
+      "price": 55,
+      "from": false,
+      "text": "Adds shine and refreshes tone between color visits.",
+      "active": true,
+      "featured": false,
+      "order": 110
+    },
+    {
+      "id": "blowdry",
+      "name": "Blow-dry",
+      "category": "styling",
+      "minutes": 45,
+      "price": 48,
+      "from": false,
+      "text": "Wash and blow-dry, smooth or with volume and movement.",
+      "active": true,
+      "featured": true,
+      "order": 120
+    },
+    {
+      "id": "updo",
+      "name": "Updo or event hair",
+      "category": "styling",
+      "minutes": 75,
+      "price": 95,
+      "from": true,
+      "text": "Pinned, braided or soft and loose for a wedding or a big night.",
+      "active": true,
+      "featured": false,
+      "order": 130
+    },
+    {
+      "id": "bridal-trial",
+      "name": "Bridal trial",
+      "category": "styling",
+      "minutes": 90,
+      "price": 120,
+      "from": false,
+      "text": "Try your wedding look ahead of the day, with notes to keep.",
+      "active": true,
+      "featured": false,
+      "order": 140
+    },
+    {
+      "id": "treatment",
+      "name": "Deep conditioning treatment",
+      "category": "care",
+      "minutes": 30,
+      "price": 38,
+      "from": false,
+      "text": "A rich mask and steam for dry or color-treated hair.",
+      "active": true,
+      "featured": false,
+      "order": 150
+    },
+    {
+      "id": "scalp",
+      "name": "Scalp reset",
+      "category": "care",
+      "minutes": 30,
+      "price": 42,
+      "from": false,
+      "text": "A gentle exfoliating treatment and massage for a calm, clean scalp.",
+      "active": true,
+      "featured": false,
+      "order": 160
+    },
+    {
+      "id": "barber-cut",
+      "name": "Clipper cut \u0026 fade",
+      "category": "barber",
+      "minutes": 30,
+      "price": 38,
+      "from": false,
+      "text": "Clipper work, a sharp fade and a scissor finish on top.",
+      "active": true,
+      "featured": true,
+      "order": 170
+    },
+    {
+      "id": "beard",
+      "name": "Beard shape",
+      "category": "barber",
+      "minutes": 20,
+      "price": 22,
+      "from": false,
+      "text": "Trim, line-up and a hot towel finish.",
+      "active": true,
+      "featured": false,
+      "order": 180
+    }
+  ],
+  "stylists": [
+    {
+      "id": "mara",
+      "name": "Mara Ellison",
+      "role": "Owner and colorist",
+      "bio": "Mara opened the salon after twelve years behind the chair in busy city salons. She loves lived-in color that grows out softly.",
+      "specialties": "Balayage, soft blondes, color correction",
+      "photo": "images/stylists/mara.webp",
+      "services": [
+        "consult",
+        "patch",
+        "cut-long",
+        "cut-short",
+        "fringe",
+        "roots",
+        "full-color",
+        "balayage",
+        "gloss",
+        "blowdry",
+        "treatment"
+      ],
+      "week": [
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:30",
+          "breakFrom": "13:00",
+          "breakTo": "13:30"
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:30",
+          "breakFrom": "13:00",
+          "breakTo": "13:30"
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:30",
+          "breakFrom": "13:00",
+          "breakTo": "13:30"
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:30",
+          "breakFrom": "13:00",
+          "breakTo": "13:30"
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:30",
+          "breakFrom": "13:00",
+          "breakTo": "13:30"
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        }
+      ],
+      "off": [],
+      "active": true,
+      "order": 10
+    },
+    {
+      "id": "theo",
+      "name": "Theo Hart",
+      "role": "Senior barber",
+      "bio": "Theo is precise and calm. Expect a clean fade, a sharp line and a good chat about records.",
+      "specialties": "Fades, classic cuts, beard work",
+      "photo": "images/stylists/theo.webp",
+      "services": [
+        "consult",
+        "barber-cut",
+        "beard",
+        "cut-short",
+        "kids",
+        "scalp"
+      ],
+      "week": [
+        {
+          "on": true,
+          "from": "10:00",
+          "to": "19:00",
+          "breakFrom": "14:00",
+          "breakTo": "14:30"
+        },
+        {
+          "on": true,
+          "from": "10:00",
+          "to": "19:00",
+          "breakFrom": "14:00",
+          "breakTo": "14:30"
+        },
+        {
+          "on": true,
+          "from": "10:00",
+          "to": "19:00",
+          "breakFrom": "14:00",
+          "breakTo": "14:30"
+        },
+        {
+          "on": true,
+          "from": "10:00",
+          "to": "19:00",
+          "breakFrom": "14:00",
+          "breakTo": "14:30"
+        },
+        {
+          "on": true,
+          "from": "10:00",
+          "to": "19:00",
+          "breakFrom": "14:00",
+          "breakTo": "14:30"
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        }
+      ],
+      "off": [],
+      "active": true,
+      "order": 20
+    },
+    {
+      "id": "june",
+      "name": "June Calder",
+      "role": "Curl specialist",
+      "bio": "June cuts curls dry, one at a time, so you can see the shape as it forms. Bring your wash-day questions.",
+      "specialties": "Curly and coily hair, dry cutting, curl care",
+      "photo": "images/stylists/june.webp",
+      "services": [
+        "consult",
+        "curl-cut",
+        "cut-long",
+        "cut-short",
+        "fringe",
+        "kids",
+        "treatment",
+        "blowdry",
+        "gloss"
+      ],
+      "week": [
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "12:30",
+          "breakTo": "13:00"
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "12:30",
+          "breakTo": "13:00"
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "12:30",
+          "breakTo": "13:00"
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "12:30",
+          "breakTo": "13:00"
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "12:30",
+          "breakTo": "13:00"
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        }
+      ],
+      "off": [],
+      "active": true,
+      "order": 30
+    },
+    {
+      "id": "rafa",
+      "name": "Rafa Moreno",
+      "role": "Color specialist",
+      "bio": "Rafa mixes every formula by hand and writes it down, so your next visit starts where the last one left off.",
+      "specialties": "Bold color, gray blending, glosses",
+      "photo": "images/stylists/rafa.webp",
+      "services": [
+        "consult",
+        "patch",
+        "roots",
+        "full-color",
+        "balayage",
+        "gloss",
+        "treatment",
+        "scalp"
+      ],
+      "week": [
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": true,
+          "from": "11:00",
+          "to": "19:00",
+          "breakFrom": "15:00",
+          "breakTo": "15:30"
+        },
+        {
+          "on": true,
+          "from": "11:00",
+          "to": "19:00",
+          "breakFrom": "15:00",
+          "breakTo": "15:30"
+        },
+        {
+          "on": true,
+          "from": "11:00",
+          "to": "19:00",
+          "breakFrom": "15:00",
+          "breakTo": "15:30"
+        },
+        {
+          "on": true,
+          "from": "11:00",
+          "to": "19:00",
+          "breakFrom": "15:00",
+          "breakTo": "15:30"
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "13:00",
+          "breakTo": "13:30"
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        }
+      ],
+      "off": [],
+      "active": true,
+      "order": 40
+    },
+    {
+      "id": "lena",
+      "name": "Lena Voss",
+      "role": "Bridal and event stylist",
+      "bio": "Lena does wedding parties, proms and any day you want to feel dressed up. Trials are relaxed and unhurried.",
+      "specialties": "Updos, braids, bridal hair",
+      "photo": "images/stylists/lena.webp",
+      "services": [
+        "consult",
+        "blowdry",
+        "updo",
+        "bridal-trial",
+        "cut-long",
+        "fringe",
+        "treatment"
+      ],
+      "week": [
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": true,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        }
+      ],
+      "off": [],
+      "active": true,
+      "order": 50
+    },
+    {
+      "id": "sami",
+      "name": "Sami Noor",
+      "role": "Stylist",
+      "bio": "Sami is our newest stylist, quick with a blow-dry and great with nervous first-timers and kids.",
+      "specialties": "Short cuts, blow-dries, kids",
+      "photo": "images/stylists/sami.webp",
+      "services": [
+        "consult",
+        "cut-short",
+        "fringe",
+        "kids",
+        "blowdry",
+        "treatment",
+        "barber-cut"
+      ],
+      "week": [
+        {
+          "on": true,
+          "from": "10:00",
+          "to": "18:00",
+          "breakFrom": "13:30",
+          "breakTo": "14:00"
+        },
+        {
+          "on": true,
+          "from": "10:00",
+          "to": "18:00",
+          "breakFrom": "13:30",
+          "breakTo": "14:00"
+        },
+        {
+          "on": true,
+          "from": "10:00",
+          "to": "18:00",
+          "breakFrom": "13:30",
+          "breakTo": "14:00"
+        },
+        {
+          "on": true,
+          "from": "10:00",
+          "to": "18:00",
+          "breakFrom": "13:30",
+          "breakTo": "14:00"
+        },
+        {
+          "on": true,
+          "from": "10:00",
+          "to": "18:00",
+          "breakFrom": "13:30",
+          "breakTo": "14:00"
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        },
+        {
+          "on": false,
+          "from": "09:00",
+          "to": "17:00",
+          "breakFrom": "",
+          "breakTo": ""
+        }
+      ],
+      "off": [],
+      "active": true,
+      "order": 60
+    }
+  ],
+  "galleryTags": [
+    {
+      "key": "cuts",
+      "label": "Cuts"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "styling",
+      "label": "Styling"
+    },
+    {
+      "key": "salon",
+      "label": "The salon"
+    }
+  ],
+  "pages": {
+    "home": {
+      "blocks": [
+        {
+          "id": "b66d057241",
+          "type": "hero",
+          "source": "",
+          "hidden": false,
+          "kicker": "Neighborhood salon \u00B7 Cuts, color, care",
+          "title": "Good hair, kept simple.",
+          "text": "\u003Cp\u003EHonest advice, clear prices and a chair that is ready when you are. Book online in a minute and pay at the salon after your visit.\u003C/p\u003E",
+          "media": "images/hero.webp",
+          "label": "Book online",
+          "link": "Book",
+          "label2": "See prices",
+          "link2": "Services",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "b8e32275fe",
+          "type": "cards",
+          "source": "",
+          "hidden": false,
+          "kicker": "",
+          "title": "",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "cal",
+              "media": "",
+              "title": "Book in a minute",
+              "text": "Pick a service, a stylist and a free time. We confirm it on the spot.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "card",
+              "media": "",
+              "title": "Pay at the chair",
+              "text": "No deposit and no card online. Pay by card or cash when you are done.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "check",
+              "media": "",
+              "title": "Clear prices",
+              "text": "Every price is on the menu. If your hair needs more time, we tell you first.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "b96029311e",
+          "type": "data",
+          "source": "featured",
+          "hidden": false,
+          "kicker": "Popular right now",
+          "title": "Our most booked services",
+          "text": "\u003Cp\u003EPrices include a consultation, a wash and a finish.\u003C/p\u003E",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bef45b63a0",
+          "type": "split",
+          "source": "",
+          "hidden": false,
+          "kicker": "About the salon",
+          "title": "Six chairs, good coffee, no rush",
+          "text": "\u003Cp\u003E{name} is a small salon on a quiet corner. We keep the book light so every appointment starts on time and nobody is hurried out of the chair.\u003C/p\u003E\u003Cp\u003EBring a photo, bring a question, or just tell us how you want to feel when you leave.\u003C/p\u003E",
+          "media": "images/salon/space.webp",
+          "label": "Meet the team",
+          "link": "Stylists",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "b0fcb4b8d3",
+          "type": "data",
+          "source": "team",
+          "hidden": false,
+          "kicker": "The team",
+          "title": "Meet your stylists",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bd30a001b4",
+          "type": "media",
+          "source": "",
+          "hidden": false,
+          "kicker": "",
+          "title": "",
+          "text": "A slow look at the color bar.",
+          "media": "images/video/salon-loop.mp4",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "b68f1073f4",
+          "type": "data",
+          "source": "visit",
+          "hidden": false,
+          "kicker": "Visit us",
+          "title": "Opening hours",
+          "text": "\u003Cp\u003EWalk-ins are welcome when a chair is free. Booking is the surest way to get the time you want.\u003C/p\u003E",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "0001-01-01T00:00:00",
+      "by": ""
+    },
+    "services": {
+      "blocks": [
+        {
+          "id": "b13faaf2b7",
+          "type": "data",
+          "source": "pricelist",
+          "hidden": false,
+          "kicker": "Services \u0026 prices",
+          "title": "Our menu",
+          "text": "\u003Cp\u003EEvery price includes a consultation and a finish. Longer or thicker hair may need more time; we always tell you before we start.\u003C/p\u003E",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "b0343f47fc",
+          "type": "split",
+          "source": "",
+          "hidden": false,
+          "kicker": "First visit?",
+          "title": "Not sure what to book?",
+          "text": "\u003Cp\u003EBook a consultation. It is free, takes fifteen minutes, and your stylist will suggest the right service and give you an exact price.\u003C/p\u003E",
+          "media": "images/salon/chair.webp",
+          "label": "Book a consultation",
+          "link": "Book",
+          "label2": "",
+          "link2": "",
+          "flip": true,
+          "items": []
+        },
+        {
+          "id": "b1ae9b483e",
+          "type": "faq",
+          "source": "",
+          "hidden": false,
+          "kicker": "",
+          "title": "Before you book",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "Do I need a patch test for color?",
+              "text": "Yes, if you are new to us or have not had color with us for six months. Book a free patch test at least 48 hours before your color.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "What does a \u0022from\u0022 price mean?",
+              "text": "The price starts there. It depends on length and thickness. Your stylist confirms the price before starting.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Can I pay by card?",
+              "text": "Yes. We take card or cash at the salon after your visit. We never ask for a deposit.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        }
+      ],
+      "versions": [],
+      "saved": "0001-01-01T00:00:00",
+      "by": ""
+    },
+    "stylists": {
+      "blocks": [
+        {
+          "id": "b8126065a2",
+          "type": "data",
+          "source": "stylistlist",
+          "hidden": false,
+          "kicker": "The team",
+          "title": "Meet your stylists",
+          "text": "\u003Cp\u003EEvery stylist does a full consultation first. Pick someone whose work you like, or choose Any stylist when you book.\u003C/p\u003E",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "b36dc979b2",
+          "type": "cta",
+          "source": "",
+          "hidden": false,
+          "kicker": "",
+          "title": "Not sure who to book?",
+          "text": "\u003Cp\u003EChoose Any stylist and we will match you with whoever is free.\u003C/p\u003E",
+          "media": "",
+          "label": "Book online",
+          "link": "Book",
+          "label2": "Ask us",
+          "link2": "Contact",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "0001-01-01T00:00:00",
+      "by": ""
+    },
+    "gallery": {
+      "blocks": [
+        {
+          "id": "b3313103fb",
+          "type": "data",
+          "source": "gallerygrid",
+          "hidden": false,
+          "kicker": "Gallery",
+          "title": "Recent work and the salon",
+          "text": "\u003Cp\u003ECuts, color and styling from the last few months, and a look around the salon.\u003C/p\u003E",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "0001-01-01T00:00:00",
+      "by": ""
+    },
+    "book": {
+      "blocks": [
+        {
+          "id": "b3cf480192",
+          "type": "data",
+          "source": "bookform",
+          "hidden": false,
+          "kicker": "Book online",
+          "title": "Choose a time that suits you",
+          "text": "\u003Cp\u003ENo deposit and no card needed. You pay at the salon after your visit.\u003C/p\u003E",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "b0045d7b19",
+          "type": "faq",
+          "source": "",
+          "hidden": false,
+          "kicker": "",
+          "title": "Good to know",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "Running late?",
+              "text": "Call us. We will do our best, but if you are more than 15 minutes late we may need to shorten the service or move it.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Need to cancel?",
+              "text": "Call or email at least 24 hours before so someone else can have the time.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Booking for two?",
+              "text": "Book each person separately. Choose the same time with two stylists to sit side by side.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        }
+      ],
+      "versions": [],
+      "saved": "0001-01-01T00:00:00",
+      "by": ""
+    },
+    "contact": {
+      "blocks": [
+        {
+          "id": "bed0ab22fc",
+          "type": "data",
+          "source": "contactform",
+          "hidden": false,
+          "kicker": "Contact",
+          "title": "Come and see us",
+          "text": "\u003Cp\u003EQuestions about a service, a wedding party or a gift card? Send us a note and we will reply by email, usually the same day.\u003C/p\u003E",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "0001-01-01T00:00:00",
+      "by": ""
+    }
+  }
+}

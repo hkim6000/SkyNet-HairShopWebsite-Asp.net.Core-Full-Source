@@ -1,0 +1,18 @@
+<div class="hm-site" id="hm-site" data-page="Home">
+<a class="hm-skip" href="#hm-main">Skip to content</a>
+<header class="hm-head" id="hm-head">
+    <div class="hm-head-row">
+        <button type="button" class="hm-burger" aria-label="Open menu" onclick="HomeJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="hm-logo" href="Home" aria-label="Home"><svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true"><rect width="40" height="40" rx="11" fill="#231A17"/><path d="M14 31c-1-7 13-7 13-14 0-4-3-7-7.5-7" fill="none" stroke="#E8C9A9" stroke-width="3.2" stroke-linecap="round"/><path d="M20 32c0-5 9-5.5 9.5-11" fill="none" stroke="#C2553A" stroke-width="2.6" stroke-linecap="round"/></svg><span id="hm-brandname">{plhd_brand}</span></a>
+        <nav class="hm-nav" id="hm-nav" aria-label="Main">
+            <div class="hm-nav-top"><b>Menu</b><button type="button" class="hm-ibtn" aria-label="Close menu" onclick="HomeJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="hm-menu"><li><a class="hm-ml hm-on" href="Home" aria-current="page">Home</a></li><li><a class="hm-ml" href="Services">Services &amp; prices</a></li><li><a class="hm-ml" href="Stylists">Stylists</a></li><li><a class="hm-ml" href="Gallery">Gallery</a></li><li><a class="hm-ml" href="Book">Book online</a></li><li><a class="hm-ml" href="Contact">Contact</a></li></ul>
+        </nav>
+        <a class="hm-btn hm-headbook" href="Book">Book now</a>
+    </div>
+    <div class="hm-scrim" id="hm-scrim" onclick="HomeJs.closeNav()"></div>
+</header>
+<main class="hm-main" id="hm-main">{plhd_blocks}</main>
+<footer class="hm-foot">{plhd_foot}</footer>
+<div class="hm-toast" id="hm-toast" role="status" aria-live="polite"></div>
+</div>

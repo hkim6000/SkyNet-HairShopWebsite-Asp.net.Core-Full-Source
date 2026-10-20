@@ -1,0 +1,24 @@
+<div class="st-site" id="st-site" data-page="Stylists">
+<a class="st-skip" href="#st-main">Skip to content</a>
+<header class="st-head" id="st-head">
+    <div class="st-head-row">
+        <button type="button" class="st-burger" aria-label="Open menu" onclick="StylistsJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="st-logo" href="Home" aria-label="Home"><svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true"><rect width="40" height="40" rx="11" fill="#231A17"/><path d="M14 31c-1-7 13-7 13-14 0-4-3-7-7.5-7" fill="none" stroke="#E8C9A9" stroke-width="3.2" stroke-linecap="round"/><path d="M20 32c0-5 9-5.5 9.5-11" fill="none" stroke="#C2553A" stroke-width="2.6" stroke-linecap="round"/></svg><span id="st-brandname">{plhd_brand}</span></a>
+        <nav class="st-nav" id="st-nav" aria-label="Main">
+            <div class="st-nav-top"><b>Menu</b><button type="button" class="st-ibtn" aria-label="Close menu" onclick="StylistsJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="st-menu"><li><a class="st-ml" href="Home">Home</a></li><li><a class="st-ml" href="Services">Services &amp; prices</a></li><li><a class="st-ml st-on" href="Stylists" aria-current="page">Stylists</a></li><li><a class="st-ml" href="Gallery">Gallery</a></li><li><a class="st-ml" href="Book">Book online</a></li><li><a class="st-ml" href="Contact">Contact</a></li></ul>
+        </nav>
+        <a class="st-btn st-headbook" href="Book">Book now</a>
+    </div>
+    <div class="st-scrim" id="st-scrim" onclick="StylistsJs.closeNav()"></div>
+</header>
+<main class="st-main" id="st-main">{plhd_blocks}</main>
+<footer class="st-foot">{plhd_foot}</footer>
+<div class="st-modal{plhd_open}" id="st-modal" aria-hidden="true">
+    <div class="st-mbox" role="dialog" aria-modal="true" aria-labelledby="st-dtitle">
+        <button type="button" class="st-ibtn st-mclose" aria-label="Close" onclick="StylistsJs.hide()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+        <div class="st-detail" id="st-detail">{plhd_detail}</div>
+    </div>
+</div>
+<div class="st-toast" id="st-toast" role="status" aria-live="polite"></div>
+</div>
