@@ -159,4 +159,4 @@ public async Task<ApiResponse> Plan()
 ## License
 
 - **This template:** choose your own license before you publish it.
-- **SkyNet Framework** (`TheSkyLite.SkyNet` NuGet package): proprietary, free to use including commercial use; see the license included in the package.
+- **SkyNet Framework** (`TheSkyLite.SkyNet` NuGet package): proprietary, free to use for eligible users including commercial use; see the license included in the package.
